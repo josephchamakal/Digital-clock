@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  font-family: "Arial", sans-serif;
+}
+span {
+  text-align: center;
+  font-size: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+span.hour {
+  background-color: red;
+}
+span.min {
+  background-color: green;
+}
+span.sec {
+  background-color: teal;
+}
